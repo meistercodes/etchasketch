@@ -1,0 +1,28 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.board {
+    border: 1px solid black;
+    display: grid;
+    width: 500px;
+    height: 500px;
+}
+
+input {
+    margin-top: 25px;
+}
+
+button {
+    margin-top: 15px;
+}
