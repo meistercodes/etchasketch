@@ -26,7 +26,6 @@ function generateBoard() {
 };
 
 function clearBoard() {
-  let board = document.querySelector('.board');
   let clearSquares = board.querySelectorAll('div');
   clearSquares.forEach((div) => div.style.cssText = '');
 }
